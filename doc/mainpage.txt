@@ -1,0 +1,288 @@
+/** 
+ @brief Documentation file to be used in Doxygen mainpage. 
+ @author Steven McDonald
+ @file
+ */
+ /**
+ @mainpage build
+ Welcome to the build repository documentation page
+@defgroup base base
+@brief The base page
+@ingroup  
+@defgroup axi axi
+@brief The axi page
+@ingroup  
+@defgroup protocols protocols
+@brief The protocols page
+@ingroup  
+@defgroup ethernet ethernet
+@brief The ethernet page
+@ingroup  
+@defgroup devices devices
+@brief The devices page
+@ingroup  
+@defgroup base_general general
+@brief The base_general page
+@ingroup base 
+@defgroup base_sync sync
+@brief The base_sync page
+@ingroup base 
+@defgroup base_ram ram
+@brief The base_ram page
+@ingroup base 
+@defgroup base_fifo fifo
+@brief The base_fifo page
+@ingroup base 
+@defgroup xilinx_7Series 7Series
+@brief The xilinx_7Series page
+@ingroup xilinx 
+@defgroup devices_AnalogDevices_ad5780 ad5780
+@brief The devices_AnalogDevices_ad5780 page
+@ingroup devices_AnalogDevices 
+@defgroup devices_AnalogDevices_ad9249 ad9249
+@brief The devices_AnalogDevices_ad9249 page
+@ingroup devices_AnalogDevices 
+@defgroup devices_AnalogDevices_ad9467 ad9467
+@brief The devices_AnalogDevices_ad9467 page
+@ingroup devices_AnalogDevices 
+@defgroup devices_Ti_adc32rf45 adc32rf45
+@brief The devices_Ti_adc32rf45 page
+@ingroup devices_Ti 
+@defgroup devices_Ti_ads42lb69 ads42lb69
+@brief The devices_Ti_ads42lb69 page
+@ingroup devices_Ti 
+@defgroup devices_AnalogDevices AnalogDevices
+@brief The devices_AnalogDevices page
+@ingroup devices 
+@defgroup xilinx_general_microblaze_bd bd
+@brief The xilinx_general_microblaze_bd page
+@ingroup xilinx_general_microblaze 
+@defgroup ethernet_TenGigEthCore_core core
+@brief The ethernet_TenGigEthCore_core page
+@ingroup ethernet_TenGigEthCore 
+@defgroup ethernet_XauiCore_core core
+@brief The ethernet_XauiCore_core page
+@ingroup ethernet_XauiCore 
+@defgroup protocols_glink_core core
+@brief The protocols_glink_core page
+@ingroup protocols_glink 
+@defgroup protocols_pgp_pgp2b_core core
+@brief The protocols_pgp_pgp2b_core page
+@ingroup protocols_pgp_pgp2b 
+@defgroup ethernet_GigEthCore_core core
+@brief The ethernet_GigEthCore_core page
+@ingroup ethernet_GigEthCore 
+@defgroup protocols_salt_core core
+@brief The protocols_salt_core page
+@ingroup protocols_salt 
+@defgroup devices_transceivers_cxp cxp
+@brief The devices_transceivers_cxp page
+@ingroup devices_transceivers 
+@defgroup devices_Ti_dac7654 dac7654
+@brief The devices_Ti_dac7654 page
+@ingroup devices_Ti 
+@defgroup ethernet_EthMacCore EthMacCore
+@brief The ethernet_EthMacCore page
+@ingroup ethernet 
+@defgroup protocols_jesd204b_example example
+@brief The protocols_jesd204b_example page
+@ingroup protocols_jesd204b 
+@defgroup xilinx_7Series_general general
+@brief The xilinx_7Series_general page
+@ingroup xilinx_7Series 
+@defgroup xilinx_general general
+@brief The xilinx_general page
+@ingroup xilinx 
+@defgroup xilinx_UltraScale_general general
+@brief The xilinx_UltraScale_general page
+@ingroup xilinx_UltraScale 
+@defgroup devices_AnalogDevices_general general
+@brief The devices_AnalogDevices_general page
+@ingroup devices_AnalogDevices 
+@defgroup ethernet_GigEthCore GigEthCore
+@brief The ethernet_GigEthCore page
+@ingroup ethernet 
+@defgroup protocols_glink glink
+@brief The protocols_glink page
+@ingroup protocols 
+@defgroup ethernet_TenGigEthCore_gth7 gth7
+@brief The ethernet_TenGigEthCore_gth7 page
+@ingroup ethernet_TenGigEthCore 
+@defgroup xilinx_7Series_gth7 gth7
+@brief The xilinx_7Series_gth7 page
+@ingroup xilinx_7Series 
+@defgroup ethernet_XauiCore_gth7 gth7
+@brief The ethernet_XauiCore_gth7 page
+@ingroup ethernet_XauiCore 
+@defgroup protocols_pgp_pgp2b_gth7 gth7
+@brief The protocols_pgp_pgp2b_gth7 page
+@ingroup protocols_pgp_pgp2b 
+@defgroup ethernet_GigEthCore_gth7 gth7
+@brief The ethernet_GigEthCore_gth7 page
+@ingroup ethernet_GigEthCore 
+@defgroup ethernet_TenGigEthCore_gthUltraScale gthUltraScale
+@brief The ethernet_TenGigEthCore_gthUltraScale page
+@ingroup ethernet_TenGigEthCore 
+@defgroup ethernet_XauiCore_gthUltraScale gthUltraScale
+@brief The ethernet_XauiCore_gthUltraScale page
+@ingroup ethernet_XauiCore 
+@defgroup protocols_pgp_pgp2b_gthUltraScale gthUltraScale
+@brief The protocols_pgp_pgp2b_gthUltraScale page
+@ingroup protocols_pgp_pgp2b 
+@defgroup ethernet_GigEthCore_gthUltraScale gthUltraScale
+@brief The ethernet_GigEthCore_gthUltraScale page
+@ingroup ethernet_GigEthCore 
+@defgroup xilinx_UltraScale_gthUs gthUs
+@brief The xilinx_UltraScale_gthUs page
+@ingroup xilinx_UltraScale 
+@defgroup xilinx_Virtex5_gtp gtp
+@brief The xilinx_Virtex5_gtp page
+@ingroup xilinx_Virtex5 
+@defgroup xilinx_7Series_gtp7 gtp7
+@brief The xilinx_7Series_gtp7 page
+@ingroup xilinx_7Series 
+@defgroup protocols_glink_gtp7 gtp7
+@brief The protocols_glink_gtp7 page
+@ingroup protocols_glink 
+@defgroup protocols_pgp_pgp2b_gtp7 gtp7
+@brief The protocols_pgp_pgp2b_gtp7 page
+@ingroup protocols_pgp_pgp2b 
+@defgroup ethernet_GigEthCore_gtp7 gtp7
+@brief The ethernet_GigEthCore_gtp7 page
+@ingroup ethernet_GigEthCore 
+@defgroup xilinx_7Series_gtx7 gtx7
+@brief The xilinx_7Series_gtx7 page
+@ingroup xilinx_7Series 
+@defgroup ethernet_TenGigEthCore_gtx7 gtx7
+@brief The ethernet_TenGigEthCore_gtx7 page
+@ingroup ethernet_TenGigEthCore 
+@defgroup ethernet_XauiCore_gtx7 gtx7
+@brief The ethernet_XauiCore_gtx7 page
+@ingroup ethernet_XauiCore 
+@defgroup protocols_glink_gtx7 gtx7
+@brief The protocols_glink_gtx7 page
+@ingroup protocols_glink 
+@defgroup protocols_pgp_pgp2b_gtx7 gtx7
+@brief The protocols_pgp_pgp2b_gtx7 page
+@ingroup protocols_pgp_pgp2b 
+@defgroup ethernet_GigEthCore_gtx7 gtx7
+@brief The ethernet_GigEthCore_gtx7 page
+@ingroup ethernet_GigEthCore 
+@defgroup protocols_i2c i2c
+@brief The protocols_i2c page
+@ingroup protocols 
+@defgroup ethernet_IpV4Engine IpV4Engine
+@brief The ethernet_IpV4Engine page
+@ingroup ethernet 
+@defgroup protocols_jesd204b jesd204b
+@brief The protocols_jesd204b page
+@ingroup protocols 
+@defgroup devices_Linear_lct2270 lct2270
+@brief The devices_Linear_lct2270 page
+@ingroup devices_Linear 
+@defgroup devices_Linear Linear
+@brief The devices_Linear page
+@ingroup devices 
+@defgroup xilinx_general_microblaze microblaze
+@brief The xilinx_general_microblaze page
+@ingroup xilinx_general 
+@defgroup devices_Microchip Microchip
+@brief The devices_Microchip page
+@ingroup devices 
+@defgroup devices_Micron Micron
+@brief The devices_Micron page
+@ingroup devices 
+@defgroup devices_Micron_n25q n25q
+@brief The devices_Micron_n25q page
+@ingroup devices_Micron 
+@defgroup devices_Micron_p30 p30
+@brief The devices_Micron_p30 page
+@ingroup devices_Micron 
+@defgroup protocols_pgp pgp
+@brief The protocols_pgp page
+@ingroup protocols 
+@defgroup protocols_pgp_pgp2b pgp2b
+@brief The protocols_pgp_pgp2b page
+@ingroup protocols_pgp 
+@defgroup devices_transceivers_qsfp qsfp
+@brief The devices_transceivers_qsfp page
+@ingroup devices_transceivers 
+@defgroup ethernet_RawEthFramer RawEthFramer
+@brief The ethernet_RawEthFramer page
+@ingroup ethernet 
+@defgroup protocols_rssi rssi
+@brief The protocols_rssi page
+@ingroup protocols 
+@defgroup protocols_saci saci
+@brief The protocols_saci page
+@ingroup protocols 
+@defgroup protocols_salt salt
+@brief The protocols_salt page
+@ingroup protocols 
+@defgroup xilinx_7Series_sem sem
+@brief The xilinx_7Series_sem page
+@ingroup xilinx_7Series 
+@defgroup devices_transceivers_sfp sfp
+@brief The devices_transceivers_sfp page
+@ingroup devices_transceivers 
+@defgroup protocols_pgp_pgp2b_core_simlink simlink
+@brief The protocols_pgp_pgp2b_core_simlink page
+@ingroup protocols_pgp_pgp2b_core 
+@defgroup protocols_spi spi
+@brief The protocols_spi page
+@ingroup protocols 
+@defgroup protocols_srp srp
+@brief The protocols_srp page
+@ingroup protocols 
+@defgroup protocols_ssi ssi
+@brief The protocols_ssi page
+@ingroup protocols 
+@defgroup protocols_ssp ssp
+@brief The protocols_ssp page
+@ingroup protocols 
+@defgroup devices_Microchip_sy56040 sy56040
+@brief The devices_Microchip_sy56040 page
+@ingroup devices_Microchip 
+@defgroup ethernet_TenGigEthCore TenGigEthCore
+@brief The ethernet_TenGigEthCore page
+@ingroup ethernet 
+@defgroup devices_Ti Ti
+@brief The devices_Ti page
+@ingroup devices 
+@defgroup devices_transceivers transceivers
+@brief The devices_transceivers page
+@ingroup devices 
+@defgroup protocols_uart uart
+@brief The protocols_uart page
+@ingroup protocols 
+@defgroup ethernet_UdpEngine UdpEngine
+@brief The ethernet_UdpEngine page
+@ingroup ethernet 
+@defgroup xilinx_UltraScale UltraScale
+@brief The xilinx_UltraScale page
+@ingroup xilinx 
+@defgroup xilinx_Virtex5 Virtex5
+@brief The xilinx_Virtex5 page
+@ingroup xilinx 
+@defgroup xilinx_7Series_xadc xadc
+@brief The xilinx_7Series_xadc page
+@ingroup xilinx_7Series 
+@defgroup ethernet_XauiCore XauiCore
+@brief The ethernet_XauiCore page
+@ingroup ethernet 
+@defgroup devices_Xilinx_xcf128 xcf128
+@brief The devices_Xilinx_xcf128 page
+@ingroup devices_Xilinx 
+@defgroup xilinx xilinx
+@brief The xilinx page
+@ingroup  
+@defgroup devices_Xilinx Xilinx
+@brief The devices_Xilinx page
+@ingroup devices 
+@defgroup protocols_salt_xilinx7 xilinx7
+@brief The protocols_salt_xilinx7 page
+@ingroup protocols_salt 
+@defgroup protocols_salt_xilinxUltraScale xilinxUltraScale
+@brief The protocols_salt_xilinxUltraScale page
+@ingroup protocols_salt 
+**/
